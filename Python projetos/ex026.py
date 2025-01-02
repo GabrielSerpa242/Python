@@ -1,0 +1,5 @@
+n = str(input('Digite uma frase com a letra A:')).strip().upper()
+print('Analisando a frase....')
+print('A frase repete A {} tantas vezes'.format(n.count('A')))
+print('A primeira posição é {}'.format(n.find('A')+1))
+print('A última posição é {}'.format(n.rfind('A')+1))

@@ -1,0 +1,5 @@
+a = int(input('Digite um numero:'))
+b = int(input('Digite um numero:'))  
+print('Os numeros são \033[32m{}\033[m e \033[36m{}\033[m'.format(a,b)) 
+nome = input('Digite seu nome:') 
+print('Prazer em te conhecer {}{}{}'.format('\033[4;32m', nome , '\033[m'))
